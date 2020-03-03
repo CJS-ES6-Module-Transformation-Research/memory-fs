@@ -1,0 +1,98 @@
+----------  ./lib/join.js  ----------
+
+<--
+module.exports = function join(path, request) {
+
+
+--- 
+
+export default function join(path, request) {
+
+// EOF: 
+export {join}
+-->
+__________________________________________________
+
+
+----------  ./lib/MemoryFileSystem.js  ----------
+
+<--
+module.exports = MemoryFileSystem;
+
+
+---
+
+
+export default class MemoryFileSystem {
+
+
+// EOF: 
+export {MemoryFileSystem}
+
+__________________________________________________
+
+
+
+
+
+----------  ./lib/MemoryFileSystemError.js  ----------
+
+
+<--
+module.exports = MemoryFileSystemError;
+
+
+---
+
+
+export default class MemoryFileSystemError extends Error {
+
+// EOF: 
+export {MemoryFileSystemError}
+-->
+__________________________________________________
+
+
+
+
+
+
+
+
+----------  ./lib/normalize.js  ----------
+
+<--
+module.exports = function normalize(path) {
+
+
+---
+
+export default function normalize(path){
+
+
+
+// EOF: 
+export {normalize}
+-->
+__________________________________________________
+
+
+
+
+
+
+
+
+----------  ./test/MemoryFileSystem.js  ----------
+
+N/A
+
+__________________________________________________
+
+
+
+
+----------  ./test/MemoryFileSystemError.js  ----------
+N/A
+
+__________________________________________________
