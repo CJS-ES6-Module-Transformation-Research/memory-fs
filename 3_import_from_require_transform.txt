@@ -1,0 +1,80 @@
+./lib/join.js
+const normalize = require("./normalize.js");
+
+import normalize from "./normalize.js";
+
+
+
+
+
+
+
+
+
+./lib/MemoryFileSystem.js
+
+
+const normalize = require("./normalize.js");
+const join = require("./join.js");
+const MemoryFileSystemError = require("./MemoryFileSystemError.js");
+const errors = require("errno");
+const stream = require("readable-stream");
+
+
+import normalize from "./normalize.js"
+import join from "./join.js"
+import MemoryFileSystemError from "./MemoryFileSystemError.js"
+import errors from "errno"
+import stream from "readable-stream"
+
+
+
+
+
+
+
+
+
+./lib/  MemoryFileSystemError.js, normalize.js
+do not require modification
+
+
+
+
+
+
+./test/MemoryFileSystem.js
+
+var bl = require("bl");
+var should = require("should");
+var MemoryFileSystem = require("../lib/MemoryFileSystem.js");
+
+
+import bl from "bl";
+import should from "should";
+import MemoryFileSystem from "../lib/MemoryFileSystem.js";
+
+
+
+
+./test/MemoryFileSystemError.js
+  
+
+
+var bl = require("bl");
+var should = require("should");
+var MemoryFileSystem = require("../lib/MemoryFileSystem.js");
+var MemoryFileSystemError = require("../lib/MemoryFileSystemError.js");
+
+
+import bl from "bl";
+import should from "should";
+import MemoryFileSystem from "../lib/MemoryFileSystem.js";
+import MemoryFileSystemError from "../lib/MemoryFileSystemError.js";
+
+
+
+
+
+
+

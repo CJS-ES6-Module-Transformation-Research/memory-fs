@@ -1,7 +1,7 @@
-var bl = require("bl");
-var should = require("should");
-var MemoryFileSystem = require("../lib/MemoryFileSystem.js");
-var MemoryFileSystemError = require("../lib/MemoryFileSystemError.js");
+import bl from "bl";
+import should from "should";
+import MemoryFileSystem from "../lib/MemoryFileSystem.js";
+import MemoryFileSystemError from "../lib/MemoryFileSystemError.js";
 
 describe("error", function() {
 	function catchError(fn) {
