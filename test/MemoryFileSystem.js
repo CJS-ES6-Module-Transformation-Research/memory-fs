@@ -1,6 +1,6 @@
 var bl = require("bl");
 var should = require("should");
-var MemoryFileSystem = require("../lib/MemoryFileSystem");
+var MemoryFileSystem = require("../lib/MemoryFileSystem.js");
 
 describe("directory", function() {
 	it("should have a empty root directory as startup", function(done) {

@@ -1,0 +1,87 @@
+
+
+
+
+----------  ./lib/normalize.js  ----------
+NO IMPORTS
+__________________________________________________
+
+
+
+
+
+
+----------  ./lib/join.js  ----------
+
+<---
+const normalize = require("./normalize");
+---
+//  add .js
+
+const normalize = require("./normalize.js");
+--->
+__________________________________________________
+
+
+
+
+
+----------  ./lib/MemoryFileSystemError.js  ----------
+NO IMPORTS
+__________________________________________________
+
+
+
+
+
+
+
+
+----------  ./lib/MemoryFileSystem.js  ----------
+<---
+const normalize = require("./normalize");
+const join = require("./join");
+const MemoryFileSystemError = require("./MemoryFileSystemError");
+---
+//  add .js
+
+const normalize = require("./normalize.js");
+const join = require("./join.js");
+const MemoryFileSystemError = require("./MemoryFileSystemError.js");
+-->
+__________________________________________________
+
+
+
+
+
+
+
+----------  ./test/MemoryFileSystemError.js  ----------
+<---
+var MemoryFileSystem = require("../lib/MemoryFileSystem");
+var MemoryFileSystemError = require("../lib/MemoryFileSystemError");
+---
+//  add .js
+
+
+var MemoryFileSystem = require("../lib/MemoryFileSystem.js");
+var MemoryFileSystemError = require("../lib/MemoryFileSystemError.js");
+-->
+__________________________________________________
+
+
+
+
+
+
+----------  ./test/MemoryFileSystem.js  ----------
+<---
+var MemoryFileSystem = require("../lib/MemoryFileSystem");
+---
+//  add .js
+
+var MemoryFileSystem = require("../lib/MemoryFileSystem.js");
+-->
+
+__________________________________________________
